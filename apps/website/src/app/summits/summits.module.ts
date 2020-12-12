@@ -1,8 +1,8 @@
-import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { Routes, RouterModule } from '@angular/router';
-import { SummitsComponent } from './summits.component';
+import { NgModule } from '@angular/core';
+import { RouterModule, Routes } from '@angular/router';
 
+import { SummitsComponent } from './summits.component';
 
 const routes: Routes = [
   { path: '', component: SummitsComponent }
